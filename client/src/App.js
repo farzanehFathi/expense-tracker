@@ -5,12 +5,6 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Dashboard />,
-    loader: rootLoader,
-    children: {
-      path: "team",
-      element: <Team />,
-      loader: teamLoader,
-    },
   },
 ]);
 

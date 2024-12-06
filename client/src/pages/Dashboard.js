@@ -1,11 +1,13 @@
 // loader
 
+import Expenses from "../components/Expenses";
+
 export function dashboardLoader() {}
 
 const Dashboard = () => {
   return (
     <>
-      <h1>This is Dashboard</h1>
+      <Expenses />
     </>
   );
 };
